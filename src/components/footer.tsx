@@ -39,7 +39,7 @@ const Footer = () => {
             </a>
             
             <a
-              href="https://wa.me/917738402118"
+              href={`https://wa.me/91${process.env.NEXT_PUBLIC_ADMIN_PHONE}`}
               target="_blank"
               rel="noopener noreferrer"
               className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center text-primary"

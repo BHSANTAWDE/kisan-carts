@@ -180,8 +180,8 @@ const ContactSection = () => {
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Phone</h3>
                     <p className="text-gray-600">
-                      <a href="tel:+917738402118">
-                        +91 7738402118
+                      <a href={`tel:+91${process.env.NEXT_PUBLIC_ADMIN_PHONE}`}>
+                        +91 {process.env.NEXT_PUBLIC_ADMIN_PHONE}
                       </a>
                     </p>
                   </div>
